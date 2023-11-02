@@ -16,16 +16,15 @@ ip=$( curl -s https://ipinfo.io)
 
 
 
-echo "$public_ip"
-echo "$ip"
-echo "Device_name = $a"
-echo "All_ip_addresh = $b"
-echo "ip_addresh = $c"
-echo "short _host_name =$d"
-echo "NIS Domain name =$e"
-#echo "Read host name
-echo "Long host name =$g"
-echo "DNS Domain name =$h"
-echo "Default host name =$i"
-echo "alias name =$j"
-#echo "all long host name =
+echo -e  "\033[0;32m $public_ip \033[0m "                                            
+echo  -e "\033[0;32m $ip \033[0m "                                                   
+echo  -e " \033[0;32m Device_name = $a \033[0m"                                      
+echo  -e " \033[0;32m All_ip_addresh = $b \033[0m"                                   
+echo  -e " \033[0;32m ip_addresh = $c \033[0m"                                       
+echo  -e " \033[0;32m short _host_name =$d \033[0m"                                  
+echo  -e " \033[0;32m NIS Domain name =$e \033[0m"                                   
+#echo "Read host name                                                                
+echo  -e " \033[0;32m Long host name =$g \033[0m"                                    
+echo  -e " \033[0;32m DNS Domain name =$h \033[0m"                                   
+echo  -e " \033[0;32m Default host name =$i \033[0m"                                 
+echo  -e " \033[0;32m alias name =$j \033[0m"   
