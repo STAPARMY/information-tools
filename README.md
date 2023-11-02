@@ -8,5 +8,10 @@ Any device to location ,public ip and another information to collect and weeknes
 <li>Ubuntu</li>
 <li>Parrot Os</li>
 </ul>
-# This tool install process :
-    chmod +x info    
+
+## Installing (Kali Linux/Termux):
+    
+    git clone https://github.com/STAPARMY/information-tools
+    cd information-tools
+    chmod +x info.sh
+    bash info.sh
